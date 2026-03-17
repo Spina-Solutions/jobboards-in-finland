@@ -18,8 +18,91 @@ This repository is the public record of every source jobcrawls covers. It's open
 
 ---
 
+## 🧭 How to Actually Find a Job in Finland
+
+This is the advice section. If you're job hunting in Finland — especially as a foreigner — read this before you start clicking.
+
+### Understand the market structure first
+
+Finland has roughly three distinct job markets layered on top of each other:
+
+1. **The visible market** — jobs posted on Duunitori, LinkedIn, and public boards. Most people start and end here. It's real, but it's incomplete.
+2. **The agency market** — jobs held exclusively by staffing and recruitment agencies. Some of these roles never appear on any job board. You find them by registering with the agencies directly or by having something (like [jobcrawls.com](https://jobcrawls.com)) monitor their listings for you.
+3. **The hidden market** — roles filled via referrals, direct headhunting, or through open applications (*avoin hakemus*). Estimated to represent 50–70% of all hires in Finland. Networking, LinkedIn presence, and proactive outreach matter enormously here.
+
+If you're only applying to posted jobs, you're fishing in one-third of the pond.
+
+---
+
+### The Finnish job search — practical tips
+
+#### 🔍 Searching effectively
+
+- **Use Finnish keywords alongside English.** Even if the role is English-speaking, Finnish job postings often use Finnish role titles. Search both `"software developer"` AND `"ohjelmistokehittäjä"` to get full coverage. Same for `"customer service"` / `"asiakaspalvelu"`, `"sales"` / `"myynti"`, etc.
+- **Filter by date, not by "entry level".** Finnish job postings often don't use standardized experience labels. Set date filters to the last 7 or 14 days and ignore experience-level filters — they're unreliable.
+- **Apply when you meet 50–60% of requirements.** Finnish job descriptions, like most, are wish lists. If the core of the role fits you, apply. Waiting until you meet 100% of requirements means you'll almost never apply.
+- **Use Google to find ATS jobs that boards miss.** Many Finnish companies post to their ATS pages without syndicating to job boards. Try:
+  ```
+  "Finland" "Helsinki" site:careers.teamtailor.com
+  "Finland" site:boards.greenhouse.io
+  "Finland" OR "Helsinki" site:apply.workable.com
+  "Suomi" OR "Finland" site:jobs.lever.co
+  ```
+  Or just use [jobcrawls.com](https://jobcrawls.com), which crawls all of these automatically.
+
+#### 🇫🇮 Finland-specific context
+
+- **Finnish is not always required, but it helps — a lot.** For most public sector roles and many customer-facing roles, Finnish is a hard requirement. For tech, startups, and international companies, English is often sufficient. Know which world your target role lives in before applying.
+- **The public sector is massive and stable.** If you're looking for job security, the municipal and state employers (Kuntarekry, Valtiolle) are worth serious attention. These are not covered by Duunitori or LinkedIn at all — they only appear on their own portals.
+- **Summers are slow.** Finnish companies slow hiring significantly in July. Peak hiring windows are September–November and February–April.
+- **The probation period (*koeaika*) is standard.** Most employment contracts in Finland include a probationary period of up to 6 months. This is normal and not a red flag.
+- **Salary is rarely listed publicly.** Finnish job postings usually omit salary ranges. It's acceptable — and expected — to ask in the first interview and to negotiate after an offer is made.
+
+#### 📬 Open applications (*avoin hakemus*)
+
+Most Finnish company career pages include a form for unsolicited applications. This is culturally accepted and genuinely effective — many Finnish hires happen this way. If you've identified companies you want to work for, don't wait for a posted role.
+
+Steps:
+1. Find the company's careers page (or search for them on [jobcrawls.com](https://jobcrawls.com))
+2. Write a short, specific cover letter explaining what you do and what kind of role you're looking for
+3. Submit via their open application form or email HR directly
+4. Follow up once after 2–3 weeks
+
+#### 🤝 Networking in Finland
+
+Finns don't network the way Americans do. Cold LinkedIn outreach asking for a coffee chat is less common and less warmly received. What does work:
+
+- **Industry events and meetups** — tech meetups, startup events, and sector conferences are genuine networking opportunities. Helsinki in particular has an active startup and tech scene.
+- **LinkedIn, but with substance** — posting about your work, sharing insights, or commenting meaningfully on posts in your field is how you build visibility. Recruiters actively use LinkedIn in Finland.
+- **University alumni networks** — Finnish alumni communities (Aalto, Helsinki, Tampere) are relatively tight-knit. If you studied in Finland, use this.
+- **Recruitment agency registration** — don't think of agencies as a last resort. For temp and contract work especially, registering with Barona, Manpower, StaffPoint, and Eezy gets your profile in front of a large number of employers. Do it early.
+
+#### 📝 CVs and applications
+
+- **Finnish CVs are typically 1–2 pages.** Clean, factual, and chronological. A photo is common but not required. Heavily designed CVs are unusual and can read as odd in traditional sectors.
+- **Cover letters (*saatekirje*) are expected** for most roles, even if marked optional. A short, specific, well-written cover letter noticeably improves your odds.
+- **Tailoring matters.** Finnish hiring managers notice generic applications. Reference the company and the specific role — it signals genuine interest.
+- **References are checked.** In Finland, reference checks are taken seriously. Have 2–3 references ready who know your work and can speak to it specifically.
+
+#### 🌐 For international job seekers
+
+- **Register with TE-palvelut (Työmarkkinatori)** — the national employment service. Even if you find your own job, being registered makes you eligible for various support programs and gives you access to job counsellors.
+- **English-language roles exist but are concentrated.** Helsinki and Espoo have the most. Tampere and Turku have some. Outside these cities, Finnish (or Swedish in coastal/western regions) becomes much more important.
+- **The startup ecosystem is genuinely international.** Companies like Wolt, Supercell, and hundreds of smaller tech startups operate entirely in English. [The Hub](https://thehub.io/) and [jobs.maria.io](https://jobs.maria.io) are good entry points for this world.
+- **Visa and permit realities matter.** EU/EEA citizens can work in Finland without a permit. Non-EU citizens typically need a residence permit for employed persons (*työntekijän oleskelulupa*). Employers in tech and engineering are familiar with this process — be prepared to discuss it proactively and early.
+
+---
+
 ## Table of Contents
 
+- [How to Actually Find a Job in Finland](#-how-to-actually-find-a-job-in-finland)
+  - [Understand the market structure](#understand-the-market-structure-first)
+  - [Searching effectively](#-searching-effectively)
+  - [Finland-specific context](#-finland-specific-context)
+  - [Open applications](#-open-applications-avoin-hakemus)
+  - [Networking in Finland](#-networking-in-finland)
+  - [CVs and applications](#-cvs-and-applications)
+  - [For international job seekers](#-for-international-job-seekers)
 - [Job Boards](#-job-boards)
   - [Public Sector](#public-sector)
   - [General / Dominant Platforms](#general--dominant-platforms)
