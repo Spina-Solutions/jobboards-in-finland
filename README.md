@@ -1,10 +1,20 @@
 # 🇫🇮 Jobs in Finland — The Complete Guide
 
-> **Maintained by [jobcrawls.com](https://jobcrawls.com)** — the fastest way to search across every Finnish job board at once.
+## The problem with job hunting in Finland
 
-A community-maintained, open-source index of everything related to finding work in Finland: job boards, recruitment agencies, ATS platforms, startup directories, and more.
+The Finnish job market is unusually fragmented. There is no single place where all jobs are posted.
 
-Pull requests welcome. If you know of something missing, open an issue or submit a PR.
+Instead, jobs are scattered across:
+- **5+ public sector portals** (state, municipal, church)
+- **Dozens of job boards** — each with partial coverage
+- **40+ recruitment and staffing agencies** — many of whom post exclusively to their own sites
+- **21 different ATS platforms** — meaning a company using Teamtailor publishes jobs in a completely different place than one using Workday or Laura
+
+This means a job seeker checking only Duunitori — the most popular Finnish job board — is missing a large portion of available roles. And someone checking 5 or 6 boards manually is still only seeing a fraction.
+
+**[jobcrawls.com](https://jobcrawls.com) is built specifically to solve this.** It crawls and indexes jobs from all of the sources listed in this repo — public portals, job boards, agency sites, ATS platforms, and company career pages — and makes them searchable in one place.
+
+This repository is the public record of every source jobcrawls covers. It's open source so the community can help keep it complete and accurate.
 
 ---
 
@@ -22,15 +32,18 @@ Pull requests welcome. If you know of something missing, open an issue or submit
 - [Applicant Tracking Systems (ATS)](#-applicant-tracking-systems-ats)
 - [Startup & Tech Company Directories](#-startup--tech-company-directories)
 - [University & Student Resources](#-university--student-resources)
-- [Useful Backlinks & External Guides](#-useful-backlinks--external-guides)
+- [Useful External Guides](#-useful-external-guides)
 - [Contributing](#-contributing)
-- [About jobcrawls.com](#-about-jobcrawlscom)
 
 ---
 
 ## 📋 Job Boards
 
+Most job seekers start here — but no single board has full market coverage. **[jobcrawls.com](https://jobcrawls.com) indexes all of the below**, so you don't have to check each one manually.
+
 ### Public Sector
+
+These portals are completely separate from commercial job boards and are invisible to anyone who doesn't know to look for them.
 
 | Name | URL | Notes |
 |------|-----|-------|
@@ -47,7 +60,7 @@ Pull requests welcome. If you know of something missing, open an issue or submit
 | Duunitori | [duunitori.fi](https://duunitori.fi/) | **The dominant Finnish job board** — highest traffic and listings volume |
 | Jobly | [jobly.fi](https://jobly.fi/) | Secondary general platform |
 | Laura | [laura.fi](https://laura.fi/en/vacancies/) | Also widely used as an ATS by Finnish employers |
-| Careerjet Finland | [careerjet.fi](https://www.careerjet.fi/yritykset) | Aggregator, direct equivalent to international careerjet |
+| Careerjet Finland | [careerjet.fi](https://www.careerjet.fi/yritykset) | Aggregator, direct equivalent to international Careerjet |
 | Jobs Portal | [jobsportal.fi](https://www.jobsportal.fi/jobs-in-helsinki) | Helsinki-focused listings |
 | Uudet Tyopaikat | [uudet-tyopaikat.com](https://uudet-tyopaikat.com/) | Aggregator-style listing site |
 
@@ -57,7 +70,7 @@ Pull requests welcome. If you know of something missing, open an issue or submit
 |------|-----|-------|
 | Academic Positions | [academicpositions.com](https://academicpositions.com/find-jobs) | University and research roles across Finland |
 | The Hub | [thehub.io](https://thehub.io/) | Startup and tech-focused jobs, smaller volume |
-| Maria.io Jobs | [jobs.maria.io](https://jobs.maria.io) | Curated tech & startup jobs; worth crawling directly or extracting company career pages |
+| Maria.io Jobs | [jobs.maria.io](https://jobs.maria.io) | Curated tech & startup jobs; useful for extracting company career pages |
 | Studentum | [studentum.fi](https://www.studentum.fi/) | Primarily study programs; tangentially useful for internships |
 
 ### International Platforms with Finland Coverage
@@ -76,6 +89,10 @@ Pull requests welcome. If you know of something missing, open an issue or submit
 ---
 
 ## 🏢 Recruitment & Staffing Agencies
+
+This is where the Finnish job market gets especially opaque. Many agencies post jobs **only on their own websites** — not on Duunitori, not on LinkedIn. If you're not checking agency sites directly, you're missing roles that never appear anywhere else.
+
+There are **40+ active agencies** in Finland. [jobcrawls.com](https://jobcrawls.com) monitors all of their vacancy pages so their exclusive listings surface alongside everything else.
 
 ### Large Staffing / Temp Agencies
 
@@ -102,7 +119,7 @@ These are the volume players — they handle temp work, contract, and permanent 
 
 ### Executive Search & Headhunting
 
-For senior, C-suite, and board-level placements.
+For senior, C-suite, and board-level placements. These firms rarely post publicly at all — but when they do, [jobcrawls.com](https://jobcrawls.com) picks it up.
 
 | Agency | Notes |
 |--------|-------|
@@ -146,14 +163,18 @@ Focused on specific sectors, languages, or candidate types.
 
 ## ⚙️ Applicant Tracking Systems (ATS)
 
-Finnish employers use a wide variety of ATS platforms. Knowing which ATS a company uses often tells you where their jobs are published — and where you can find a direct application link.
+This is the least visible — and most important — layer of the Finnish job market.
+
+When a company uses an ATS, their jobs live on a subdomain controlled by that ATS provider (e.g. `companyname.teamtailor.com`). These pages are often not indexed by job boards at all. **The only way to find them is to either know the company and go directly, or to have something crawling ATS platforms systematically.**
+
+That's exactly what [jobcrawls.com](https://jobcrawls.com) does — it tracks Finnish employers across all of the ATS platforms below and surfaces their job openings even when they haven't been posted anywhere else.
 
 | ATS | Notes |
 |-----|-------|
-| [Teamtailor](https://www.teamtailor.com/) | Very popular in Finland and across Nordics |
+| [Teamtailor](https://www.teamtailor.com/) | Very popular in Finland and across the Nordics |
 | [Jobylon](https://www.jobylon.com/) | Popular Nordic ATS |
 | [Talentadore](https://www.talentadore.com/) | Finnish ATS |
-| [Greenhouse](https://www.greenhouse.io/) | Popular with international tech companies |
+| [Greenhouse](https://www.greenhouse.io/) | Popular with international tech companies operating in Finland |
 | [Oracle Cloud (Taleo)](https://www.oracle.com/human-capital-management/) | Enterprise ATS |
 | [Laura](https://www.laura.fi/) | Finnish ATS with its own job board |
 | [Lever](https://www.lever.co/) | Mid-market ATS, used by some Finnish tech firms |
@@ -168,7 +189,7 @@ Finnish employers use a wide variety of ATS platforms. Knowing which ATS a compa
 | [Synapse HR](https://www.synapsehr.com/) | ATS platform |
 | [Synapser](https://www.synapser.fi/) | Finnish ATS |
 | [TTC Portals](https://www.ttcportals.com/) | ATS/recruitment portals |
-| [Drupal-based portals](https://www.drupal.org/) | Some Finnish public sector employers run custom Drupal job pages |
+| [Drupal-based portals](https://www.drupal.org/) | Custom portals used by some Finnish public sector employers |
 | [ServiceNow HR](https://www.servicenow.com/products/hrsd.html) | Enterprise |
 | [Jobvite](https://www.jobvite.com/) | Mid-market ATS |
 | [TalentTech](https://talenttech.ru/) | ATS used by some organisations |
@@ -178,24 +199,24 @@ Finnish employers use a wide variety of ATS platforms. Knowing which ATS a compa
 
 ## 🚀 Startup & Tech Company Directories
 
-If you want to find companies to target directly (rather than waiting for a job posting), these directories list Finnish startups and tech companies.
+If you want to find companies to target directly — rather than waiting for a job posting — these directories list Finnish startups and tech companies. Once you have a company name, you can find their career page directly, or just search for them on [jobcrawls.com](https://jobcrawls.com).
 
-| Resource | URL |
-|----------|-----|
-| Startup100 | [startup100.net](https://startup100.net/) |
-| F6S Finland | [f6s.com/companies/finland](https://www.f6s.com/companies/finland/lo) |
-| Failory Finland Startups | [failory.com/startups/finland](https://www.failory.com/startups/finland) |
-| StartupBlink Finland | [startupblink.com](https://www.startupblink.com/top-startups/finland) |
-| EU Startups Directory | [eu-startups.com/directory](https://www.eu-startups.com/directory/) |
-| Wantrepreneur Finland | [startups.wantrepreneur.fi](https://startups.wantrepreneur.fi/) |
-| Finder.fi | [finder.fi](https://finder.fi) | Finnish company database |
-| Crunchbase | [crunchbase.com](https://www.crunchbase.com/) | Filter by Finland |
+| Resource | URL | Notes |
+|----------|-----|-------|
+| Startup100 | [startup100.net](https://startup100.net/) | Top Finnish startups |
+| F6S Finland | [f6s.com/companies/finland](https://www.f6s.com/companies/finland/lo) | Startup profiles |
+| Failory Finland | [failory.com/startups/finland](https://www.failory.com/startups/finland) | Startup directory |
+| StartupBlink Finland | [startupblink.com](https://www.startupblink.com/top-startups/finland) | Global startup map |
+| EU Startups Directory | [eu-startups.com/directory](https://www.eu-startups.com/directory/) | European startups including Finland |
+| Wantrepreneur Finland | [startups.wantrepreneur.fi](https://startups.wantrepreneur.fi/) | Finnish startup index |
+| Finder.fi | [finder.fi](https://finder.fi) | Finnish company database — useful for finding employer names |
+| Crunchbase | [crunchbase.com](https://www.crunchbase.com/) | Filter by Finland for funded companies |
 
 ---
 
 ## 🎓 University & Student Resources
 
-Finnish universities maintain their own job boards and career resources, often aggregating postings relevant to their students.
+Finnish universities maintain their own job boards and career pages, often aggregating postings relevant to their students and recent graduates.
 
 | Institution | URL |
 |-------------|-----|
@@ -203,37 +224,37 @@ Finnish universities maintain their own job boards and career resources, often a
 | Tampere University | [tuni.fi — finding a job](https://www.tuni.fi/en/students-guide/handbook/uni/internship-and-work-life/job-hunting/finding-job-or-internship) |
 | Metropolia (Helsinki) | [metropolia.fi — finding work](https://www.metropolia.fi/en/services/metropolias-services-to-highly-educated-immigrants/finding-work-in-finland#jobsearch) |
 | Diak | [diak.fi — työnhakukanavat](https://www.diak.fi/opiskelu/opiskelijan-polku/urasuunnittelu/erilaiset-tyonhakukanavat/) |
-| Welcome to Helsinki (City of Helsinki) | [welcome.hel.fi](https://welcome.hel.fi/work-life-balance/finding-a-job-in-helsinki/) | Guide for internationals |
+| Welcome to Helsinki | [welcome.hel.fi](https://welcome.hel.fi/work-life-balance/finding-a-job-in-helsinki/) | City of Helsinki guide for internationals |
 
 ---
 
-## 🔗 Useful Backlinks & External Guides
+## 🔗 Useful External Guides
 
-These pages discuss job searching in Finland and may be useful for SEO, research, or just learning the landscape.
+Articles and resources written about job hunting in Finland, for further reading and context.
 
 ### Curated Guides
 
 | Source | URL | Topic |
 |--------|-----|-------|
 | Workello | [workello.com/job-boards-in-finland](https://workello.com/job-boards-in-finland/) | Job boards overview |
-| Mandy News | [mandynews.com](https://mandynews.com/100-best-job-sites-in-finland-for-2025/) | 100 best job sites in Finland 2025 |
+| Mandy News | [mandynews.com](https://mandynews.com/100-best-job-sites-in-finland-for-2025/) | 100 best job sites 2025 |
 | Get Hired in Finland | [gethiredinfinland.com](https://www.gethiredinfinland.com/blogs/14jobwebsites) | 14 job websites for Finland |
 | The Fast Hire | [thefasthire.org](https://thefasthire.org/common-jobs-in-finland-for-foreigners/) | Jobs for foreigners |
 | Foreigners in Finland (1) | [foreignersinfinland.fi](https://www.foreignersinfinland.fi/post/top-5-job-boards-in-finland) | Top 5 job boards |
 | Foreigners in Finland (2) | [foreignersinfinland.fi](https://www.foreignersinfinland.fi/post/5-essential-jobsites-in-finland-for-international-jobseekers-your-ultimate-guide-to-finding-local-o) | 5 essential jobsites for internationals |
-| GrabJobs | [grabjobs.co](https://grabjobs.co/recruitment-platform/job-posting-websites-hire-job-seekers-in-finland/) | Job posting websites in Finland |
+| GrabJobs | [grabjobs.co](https://grabjobs.co/recruitment-platform/job-posting-websites-hire-job-seekers-in-finland/) | Job posting sites in Finland |
 | JobBoardFinder | [jobboardfinder.com](https://www.jobboardfinder.com/search/best-job-site-in-finland) | Best job sites in Finland |
 | Eurokiwi Legal | [eurokiwilegal.com](https://www.eurokiwilegal.com/finlandiya-is-ilanlari-ve-is-bulma/) | Finnish job boards directory |
-| AllRemote | [allremote.jobs](https://allremote.jobs/job-posting-sites/finland) | Remote job posting sites for Finland |
+| AllRemote | [allremote.jobs](https://allremote.jobs/job-posting-sites/finland) | Remote job posting sites |
 
 ### Reddit Discussions
 
 | Topic | URL |
 |-------|-----|
-| Best place to find a job in Finland | [r/Finland discussion](https://www.reddit.com/r/Finland/comments/r1tzvs/what_is_the_best_place_to_find_a_job_in_finland/) |
+| Best place to find a job in Finland | [r/Finland thread](https://www.reddit.com/r/Finland/comments/r1tzvs/what_is_the_best_place_to_find_a_job_in_finland/) |
 | Jobs for English speakers | [r/Finland search](https://www.reddit.com/r/Finland/search/?q=jobs+for+english) |
 
-### Other Curated Lists & Directories
+### Other Lists & Directories
 
 | Resource | URL |
 |----------|-----|
@@ -248,15 +269,15 @@ These pages discuss job searching in Finland and may be useful for SEO, research
 
 ## 🤝 Contributing
 
-This is an open, community-maintained resource. Contributions are very welcome.
+This is an open, community-maintained resource. Pull requests are welcome.
 
 **To add something:**
 1. Fork this repo
 2. Edit the relevant section of `README.md`
 3. Open a pull request with a brief description of what you're adding and why
 
-**What to add:**
-- Job boards operating in Finland that aren't listed
+**What belongs here:**
+- Job boards operating in Finland
 - Recruitment agencies active in the Finnish market
 - ATS platforms used by Finnish employers
 - Startup directories that include Finnish companies
@@ -267,19 +288,8 @@ This is an open, community-maintained resource. Contributions are very welcome.
 - Duplicate entries
 - Paid promotions disguised as neutral listings
 
----
-
-## 🌐 About jobcrawls.com
-
-**[jobcrawls.com](https://jobcrawls.com)** crawls and indexes job listings from across Finnish job boards, ATS platforms, and company career pages — so you can search everything in one place instead of checking 20 sites manually.
-
-This repository is our way of giving back to the community that helps us do what we do. The more complete and accurate this list is, the better jobcrawls works for everyone.
-
-If you find jobcrawls useful, the best thing you can do is:
-- ⭐ Star this repo
-- 🔗 Link to it if you write about jobs in Finland
-- 📣 Tell someone who's job hunting
+The more complete this list is, the more complete [jobcrawls.com](https://jobcrawls.com) can be. If you know of a source that's missing, the whole Finnish job-hunting community benefits from adding it.
 
 ---
 
-*Last updated: March 2026 · Maintained by [Spina Solutions](https://github.com/Spina-Solutions)*
+*Last updated: March 2026 · Maintained by [Spina Solutions](https://github.com/Spina-Solutions) · Powered by [jobcrawls.com](https://jobcrawls.com)*
