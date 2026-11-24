@@ -160,6 +160,7 @@ These portals are completely separate from commercial job boards and are invisib
 
 | Name | URL | Notes |
 |------|-----|-------|
+| EuroJobs.ai | [eurojobs.ai](https://eurojobs.ai) | 28,000+ IT jobs across Europe, read hourly from Finnish and other European employers' ATS (Greenhouse, Lever, Ashby, Workable, Personio). Filter by Finland, remote, or visa sponsorship |
 | LinkedIn | [linkedin.com/jobs](https://www.linkedin.com/jobs/) | Major source of Finnish tech and white-collar jobs |
 | Levels.fyi | [levels.fyi/jobs](https://www.levels.fyi/jobs) | Tech compensation-focused job listings |
 | Startup.jobs | [startup.jobs](https://startup.jobs/?loc=Finland) | Startup roles filtered by Finland |
